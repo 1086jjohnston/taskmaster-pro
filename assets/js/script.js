@@ -55,7 +55,7 @@ $(".list-group").on("click", "p", function() {
   textInput.trigger("focus");
 });
 
-$(".list-group").o("blur", "textarea", function() {
+$(".list-group").on("blur", "textarea", function() {
     var text = $(this)
     .val()
     .trim();
